@@ -1,0 +1,9 @@
+-A Python environment is a setup where you run your Python code, including the Python version and installed libraries. It can be global (system-wide) or isolated (like virtual environments), helping manage dependencies for different projects without conflicts.
+-pip: manejador de paquete de python
+-pip list : paquetes que tengo instalados  en mi maquina local de forma global
+-installar paquete entorno virtual: pip install virtualenv  
+-crear entorno virtual:python -m venv venv
+-activar entorno virtual :venv\Scripts\activate.bat
+-activar dependencias del projecto:pip install -r requi
+rements.txt
+-correr python download_functions 
