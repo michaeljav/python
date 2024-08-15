@@ -11,4 +11,4 @@ class EmployeeSerializer(serializers.ModelSerializer):
                      "phone_number",
                     "position",
                     "salary",
-                    "date_hire"]
+                    "date_hired"]
