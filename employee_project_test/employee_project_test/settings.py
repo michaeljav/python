@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles', 'api', 
       'rest_framework',
-     'api',  
+     
 ]
 
 MIDDLEWARE = [
@@ -85,9 +85,9 @@ WSGI_APPLICATION = 'employee_project_test.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'your_database_name',
-        'USER': 'your_database_user',
-        'PASSWORD': 'your_database_password',
+        'NAME': 'employees_python_test',
+        'USER': 'postgres',
+        'PASSWORD': '123456',
         'HOST': 'localhost',  # Or your PostgreSQL server
         'PORT': '54320',  # Default PostgreSQL port
     }
